@@ -1,0 +1,16 @@
+[project]
+name = "Telepathy"
+version = "0.1.0"
+description = "Telegram Adapter for Avilla"
+authors = [
+    {name = "nullqwertyuiop", email = "null@member.fsf.org"},
+]
+dependencies = [
+    "avilla-core>=1.0.0a7",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
